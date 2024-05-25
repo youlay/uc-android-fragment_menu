@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NavigationFragment" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#CDDC39</item>
+    </style>
+
+    <style name="Theme.NavigationFragment" parent="Base.Theme.NavigationFragment" />
+</resources>

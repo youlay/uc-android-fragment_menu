@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/message_menu"
+        android:icon="@drawable/baseline_message_24"
+        android:title="Message"/>
+    <item
+        android:id="@+id/Explor_menu"
+        android:icon="@drawable/baseline_assistant_navigation_24"
+        android:title="Explor"/>
+    <item
+        android:id="@+id/Comment_menu"
+        android:icon="@drawable/baseline_maps_ugc_24"
+        android:title="Comment"/>
+</group>
+    <item
+        android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/Share_menu"
+                android:icon="@drawable/baseline_share_24"
+                android:title="Share"/>
+            <item
+                android:id="@+id/Send_menu"
+                android:icon="@drawable/baseline_content_paste_go_24"
+                android:title="Send"/>
+        </menu>
+    </item>
+</menu>
